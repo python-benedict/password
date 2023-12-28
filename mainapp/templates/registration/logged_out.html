@@ -1,0 +1,13 @@
+{% entends 'base.html' %}
+
+{%block title%} Logout {%endblock%}
+
+{%block content%}
+
+<h1> Logged Out <h1>
+
+<p>
+    You have successfully logged out, you can <a href="{%url 'login' %}"> login again </a>
+</p> 
+
+{%endblock%}
